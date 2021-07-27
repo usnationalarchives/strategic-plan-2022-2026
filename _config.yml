@@ -56,3 +56,5 @@ gems:
 
 
 host: 0.0.0.0
+
+theme: jekyll-theme-minimal
