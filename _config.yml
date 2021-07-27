@@ -22,13 +22,13 @@ exclude:
 # Site metadata
 name: "Strategic Plan"
 description: "The National Archives and Records Administration (NARA) is the nation's record keeper."
-baseurl: /strategic-plan
+baseurl: /strategic-plan-2022-2026
 # Uncomment the following line for localhost development at http://127.0.0.1:4000/software/
 # baseurl: /software
 
 # GitHub information
 org_name: usnationalarchives
-repo_name: strategic-plan
+repo_name: strategic-plan-2022-2026
 branch: gh-pages
 
 # Navigation
