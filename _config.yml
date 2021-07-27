@@ -1,0 +1,58 @@
+# markdown 
+markdown: kramdown
+#redcarpet:
+#  extensions: ["superscript","tables","with_toc_data","strikethrough","smart"]
+#highlighter: pygments
+
+exclude:
+- ".ruby-version"
+- ".jekyll-metadata"
+- ".gitignore"
+- ".travis.yml"
+- todo.txt
+- resources
+- Gemfile
+- Gemfile.lock
+- Makefile
+- vendor
+- README.md
+- CONTRIBUTING.md
+- LICENSE.md
+
+# Site metadata
+name: "Strategic Plan"
+description: "The National Archives and Records Administration (NARA) is the nation's record keeper."
+baseurl: /strategic-plan
+# Uncomment the following line for localhost development at http://127.0.0.1:4000/software/
+# baseurl: /software
+
+# GitHub information
+org_name: usnationalarchives
+repo_name: strategic-plan
+branch: gh-pages
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Agency Overview
+  url: /
+- text: Mission, Vision, Values
+  url: /mission/
+- text: Transformational Outcomes
+  url: /outcomes/
+- text: NARA Strategic Goals and Objectives
+  url: /goal/
+- text: NARA Organization
+  url: /organization/
+- text: Send Feedback
+  url: /feedback/
+
+# sass
+sass:
+  sass_dir: _sass
+
+gems:
+  - jekyll-redirect-from
+
+
+host: 0.0.0.0
