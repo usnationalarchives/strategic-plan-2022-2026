@@ -20,7 +20,7 @@ exclude:
 - LICENSE.md
 
 # Site metadata
-name: "Strategic Plan"
+name: "Strategic Plan 2022-2026"
 description: "The National Archives and Records Administration (NARA) is the nation's record keeper."
 baseurl: /strategic-plan-2022-2026
 # Uncomment the following line for localhost development at http://127.0.0.1:4000/software/
